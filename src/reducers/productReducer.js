@@ -1,5 +1,9 @@
 export default function productReducer(state = {products: []}, action) {
-    
-return state
 
+    switch (action.type) {
+        case 'FETCH_PRODUCTS':
+            return {products: action.payload}
+    default:
+        return state
+    }
 }

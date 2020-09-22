@@ -3,7 +3,8 @@ import { connect } from 'react-redux';
 
 import ProductForm from '../components/ProductForm';
 import Products from '../components/Products';
-import { fetchProducts } from '../actions/fetchProducts';
+import {fetchProducts} from '../actions/fetchProducts';
+
 
 
 class ProductsContainer extends React.Component {
@@ -23,7 +24,7 @@ class ProductsContainer extends React.Component {
 
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
     return {
        products: state.products
     }

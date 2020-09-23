@@ -11,8 +11,14 @@ export const addProduct = (product) => {
             method: 'POST',
             body: JSON.stringify(product)
         })
-    .then(response => response.json())
-    .then(product => dispatch({type: 'ADD_PRODUCT', payload: product}))
-  }
-
+            .then(response => response.json())
+            .then(product => {
+                if (product.error) {
+                    alert(product.error)
+                } else {
+                    dispatch({ type: 'ADD_PRODUCT', payload: product })
+                }
+            }
+            )
+    }
 }

@@ -31,9 +31,9 @@ class JournalEntryForm extends React.Component {
         return (
             <div>
                 <form onSubmit={this.handleSubmit} >
-                    <label>How is this Product Treating You?  </label><br></br><br></br>
+                    <label><strong>What is Your Skin Telling You Today?  </strong></label><br></br><br></br>
                     <textarea name="entry" placeholder='Penny for Your Thoughts...' value={this.state.entry} onChange={this.handleChange} ></textarea><br></br><br></br>
-                    <label>How Your Skin is Feeling Today:  </label>
+                    <label><strong>How is Your Skin Feeling Today?  </strong></label>
                     <select name="entry_type" value={this.state.entry_type} onChange={this.handleChange} ><option>Good</option><option>Neutral</option><option>Bad</option></select> <br></br><br></br>
                     <input type="submit"></input><br></br><br></br>
                 </form>

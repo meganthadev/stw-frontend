@@ -3,8 +3,7 @@ import { Redirect } from 'react-router-dom';
 import JournalEntriesContainer from '../containers/JournalEntriesContainer'
 
 const Product = (props) => {
-    console.log(props)
-   // let product = props.products[props.match.params.id - 1]
+
     let product = props.products.filter(product => product.id == props.match.params.id)[0]
 
     return (

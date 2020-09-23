@@ -15,14 +15,23 @@ export default function productReducer(state = { products: [] }, action) {
             })
             return { ...state, products: products }
         case 'DELETE_ENTRY':
-            let deleted_products = state.products.map(product => {
+            let deleted_product = state.products.map(product => {
                 if (product.id === action.payload.id) {
                     return action.payload
                 } else {
                     return product
                 }
             })
-            return { ...state, products: deleted_products }
+            return { ...state, products: deleted_product }
+        case 'EDIT_PRODUCT':
+            let edited_product = state.products.map(product => {
+                if (product.id === action.payload.id) {
+                    return action.payload
+                } else {
+                    return product
+                }
+            })
+            return { ...state, products: edited_product }
         default:
             return state
     }

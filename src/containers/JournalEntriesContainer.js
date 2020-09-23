@@ -7,8 +7,8 @@ class JournalEntriesContainer extends React.Component {
     render() {
         return (
             <div>
-                <JournalEntryForm />
-                <JournalEntries journal_entries={this.props.product && this.props.product.journal_entries}/>
+                <JournalEntryForm product={this.props.product} />
+                <h3>Your Thoughts Over Time:</h3><JournalEntries journal_entries={this.props.product && this.props.product.journal_entries}/>
             </div>
         )
     }

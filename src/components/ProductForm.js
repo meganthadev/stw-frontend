@@ -37,15 +37,15 @@ class ProductForm extends React.Component {
                     <label>Product Name:  </label>
                     <input type="text" name="name" placeholder='Name' value={this.state.name} onChange={this.handleChange} ></input><br></br><br></br>
                     <label>Product Rating:  </label>
-                    <select type="number" name="rating" value={this.state.rating} onChange={this.handleChange} ><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
+                    <select class="button" type="number" name="rating" value={this.state.rating} onChange={this.handleChange} ><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
                     </select><br></br><br></br>
                     <label>Product Image URL:  </label>
                     <input type="text" name="image_url" placeholder='Image URL' value={this.state.image_url} onChange={this.handleChange} ></input><br></br><br></br>
-                    <label>Product Description:  </label><br></br>
-                    <textarea name="description" placeholder='Description...' value={this.state.description} onChange={this.handleChange} ></textarea><br></br><br></br>
-                    <label>Product Ingredients:  </label><br></br>
-                    <textarea name="ingredients" placeholder='Ingredients...' value={this.state.ingredients} onChange={this.handleChange} ></textarea><br></br><br></br>
-                    <input type="submit" /><br></br><br></br>
+                    <label>Product Description:  </label><br></br><br></br>
+                    <textarea rows="5" cols="50" name="description" placeholder='Description...' value={this.state.description} onChange={this.handleChange} ></textarea><br></br><br></br>
+                    <label>Product Ingredients:  </label><br></br><br></br>
+                    <textarea rows="5" cols="50" name="ingredients" placeholder='Ingredients...' value={this.state.ingredients} onChange={this.handleChange} ></textarea><br></br><br></br><br></br>
+                    <input class="button" type="submit" /><br></br><br></br><br></br>
                 </form>
             </div>
         )

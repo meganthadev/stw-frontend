@@ -1,4 +1,5 @@
 export default function productReducer(state = { products: [] }, action) {
+
     switch (action.type) {
         case 'FETCH_PRODUCTS':
             return { products: action.payload }
@@ -13,6 +14,15 @@ export default function productReducer(state = { products: [] }, action) {
                 }
             })
             return { ...state, products: products }
+        case 'DELETE_ENTRY':
+            let deleted_products = state.products.map(product => {
+                if (product.id === action.payload.id) {
+                    return action.payload
+                } else {
+                    return product
+                }
+            })
+            return { ...state, products: deleted_products }
         default:
             return state
     }

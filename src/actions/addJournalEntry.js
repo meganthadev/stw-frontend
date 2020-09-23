@@ -8,10 +8,14 @@ export const addJournalEntry = (product, productId) => {
             },
             body: JSON.stringify(product)
         })
-        .then(resp => resp.json())
-        .then(product => dispatch({
-            type: 'ADD_JOURNAL', payload: product
-        })
+            .then(resp => resp.json())
+            .then(product => {
+                if (product.error) {
+                    alert(product.error)
+                } else {
+                    dispatch({ type: 'ADD_JOURNAL', payload: product })
+                }
+            }
             )
     }
 }

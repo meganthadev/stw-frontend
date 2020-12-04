@@ -14,6 +14,18 @@ Backend (RoR) Clone: git@github.com:meganthadev/stw-backend.git Run 'bundle inst
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+
+Frontend README for Skin That Wins :)
+
+Run npm start to activate frontend and view index.js in browser
+
+Installation/Start-Up Instructions:
+
+Run 'git clone git@github.com:meganthadev/stw-frontend.git' Run 'bundle install --full-index' (installs all dependencies) Run 'git remote set-url origin git@github.com:meganthadev/stw-frontend.git' , then run 'eval $(ssh-agent)' then 'ssh-add ~/.ssh/id_rsa' then enter ssh passphrase only once before any git commits.
+
+Backend (Ruby on Rails API) Clone: git@github.com:meganthadev/stw-backend.git Run rails s to start server (with rails server running).
+
 ## Available Scripts
 
 In the project directory, you can run:

@@ -2,6 +2,9 @@
 
 ## Welcome to Skin That Wins! A colorful and honest app about skin care. Where users can add and share their own go-to's and no-go's. For those of us who are tired of spending money on skin care that does not deliver Skin That Wins!
 
+### Features
+- Users of this app can create, view, or edit skin care product pages which hold a five star review system.
+
 Run bundle install, rails s to begin server
 
 Installation/Start-Up Instructions:

@@ -1,6 +1,6 @@
 # Skin That Wins Frontend README
 
-Backend README for Skin That Wins :)
+## Welcome to Skin That Wins! A colorful and honest app about skin care. Where users can add and share their own go-to's and no-go's. For those of us who are tired of spending money on skin care that does not deliver Skin That Wins!
 
 Run bundle install, rails s to begin server
 

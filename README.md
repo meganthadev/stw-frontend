@@ -7,7 +7,7 @@
 
 Run bundle install, rails s to begin server
 
-Installation/Start-Up Instructions:
+### Installation/Start-Up Instructions:
 
 Frontend : Run 'git clone git@github.com:meganthadev/stw-frontend.git' Run npm start to activate frontend and view index.js in browser (with rails server running).
 

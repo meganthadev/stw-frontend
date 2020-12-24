@@ -1,4 +1,4 @@
-# README
+# Skin That Wins Frontend README
 
 Backend README for Skin That Wins :)
 

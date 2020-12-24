@@ -14,7 +14,7 @@ Run 'git clone git@github.com:meganthadev/stw-frontend.git' Run npm start to act
 #### Backend (RoR) Clone: 
 git@github.com:meganthadev/stw-backend.git Run 'bundle install --full-index' (installs all gems/dependencies).  Run 'git remote set-url origin git@github.com:meganthadev/stw-backend.git' , then run 'eval $(ssh-agent)' then 'ssh-add ~/.ssh/id_rsa' then enter ssh passphrase only once before any git commits.
 
-* Backend Ruby version: 2.7.0p0
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -26,11 +26,12 @@ Run 'git clone git@github.com:meganthadev/stw-frontend.git' Run 'bundle install 
 
 ## Dependencies
 
-Rails version - 'rails', '~> 6.0.3'
+- Rails version - 'rails', '~> 6.0.3'
+-  Backend Ruby version: 2.7.0p0
+- gem 'bcrypt', '~> 3.1.7' gem 'omniauth' gem 'dotenv-rails' gem 'omniauth-google-oauth2
 
-gem 'bcrypt', '~> 3.1.7' gem 'omniauth' gem 'dotenv-rails' gem 'omniauth-google-oauth2
 
-MIT License
+## MIT License
 
 Copyright (c) 2020 Megan Horsfield
 

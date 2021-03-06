@@ -1,6 +1,6 @@
 # Skin That Wins Frontend README
 
-## Welcome to Skin That Wins! A user-based, honest app about skin care. Where users can add and share their own go-to's and no-go's. For those of us who are tired of spending money on skin care that does not deliver "Skin That Wins"!
+## Welcome to Skin That Wins! A 100% user-curated and honest app all about skin care. Where users can add and share their own go-to's and no-go's. For those of us who are tired of spending money on skin care that does not deliver "Skin That Wins"!
 
 ### Features
 - Users of this app can create, view, or edit skin care product pages which hold a five star review system.
